@@ -1,0 +1,86 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(151, 147, 147);
+}
+
+h1{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: rgb(151, 147, 147);
+    border-radius: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.field{
+    width: 500px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+label{
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+textarea{
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.counter{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#toggle{
+    background-color: black;
+    color: blue;
+    font-size: 20px;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.button button:hover{
+    background-color: rgb(0, 162, 255);
+}
+
+
